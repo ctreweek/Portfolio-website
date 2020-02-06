@@ -192,3 +192,15 @@ th, td {
   position: relative;
   min-height: 100vh;
 }
+
+.form-row {
+  display: block;
+}
+
+.contact-content > h1, p {
+  text-align: center;
+}
+
+.contact-info {
+  text-align: center;
+}
