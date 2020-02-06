@@ -9,47 +9,51 @@
   <link rel="stylesheet" type="text/css" href="css/style.production.css">
 </head>
 <body>
-  <header class="page-header">
-    <img src="img/logo.png" alt="logo" class="page-header__item">
-    <nav>
-      <ul role="menubar" class="navigation-list page-header__item">
-        <li role="presentation"><a role="menuitem" href="index.html" class="navigation-list__item">Home</a></li>
-        <li role="presentation"><a role="menuitem" href="about.html" class="navigation-list__item" >About</a></li>
-        <li role="presentation"><a role="menuitem" href="work.html" class="navigation-list__item" >My Work</a></li>
-        <li role="presentation"><a role="menuitem" href="contact.html" class="navigation-list__item navigation-list__item--active" >Contact</a></li>
-      </ul>
-    </nav>
-   </header>
-  <div>
-    <h1>Contact</h1>
-    <a href="mailto:c.k.treweek@gmail.com">c.k.treweek@gmail.com</a><br>
-    Cell: <a href="tel:+13525147436">+1 352-514-7436</a><br>
-    Skype: <a href="skype:ctreweek">ctreweek</a><br>
-    <a href="mailto:c.k.treweek@gmail.com">Contact me</a>
-  </div>
-  <form action="" method="post" id="contact-form">
-    <label class="standard-label" for="email">Email: </label>
-    <input type="email" required id="email">
+  <div class="page-container">
+    <div class="content-wrap">
+      <header class="page-header">
+        <img src="img/logo.png" alt="logo" class="page-header__item">
+        <nav>
+          <ul role="menubar" class="navigation-list page-header__item">
+            <li role="presentation"><a role="menuitem" href="index.html" class="navigation-list__item">Home</a></li>
+            <li role="presentation"><a role="menuitem" href="about.html" class="navigation-list__item" >About</a></li>
+            <li role="presentation"><a role="menuitem" href="work.html" class="navigation-list__item" >My Work</a></li>
+            <li role="presentation"><a role="menuitem" href="contact.html" class="navigation-list__item navigation-list__item--active" >Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div>
+        <h1>Contact</h1>
+        <a href="mailto:c.k.treweek@gmail.com">c.k.treweek@gmail.com</a><br>
+        Cell: <a href="tel:+13525147436">+1 352-514-7436</a><br>
+        Skype: <a href="skype:ctreweek">ctreweek</a><br>
+        <a href="mailto:c.k.treweek@gmail.com">Contact me</a>
+      </div>
+      <form action="" method="post" id="contact-form">
+        <label class="standard-label" for="email">Email: </label>
+        <input type="email" required id="email">
 
-    <label class="standard-label" for="tel">Telephone: </label>
-    <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="tel">
+        <label class="standard-label" for="tel">Telephone: </label>
+        <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="tel">
 
-    <label class="standard-label" for="message">Message: </label>
-    <textarea required maxlength="240" id="message"></textarea>
+        <label class="standard-label" for="message">Message: </label>
+        <textarea required maxlength="240" id="message"></textarea>
 
-    <input type="submit" value="Send Message">
-  </form>
-
-  <footer class="page-footer">
-    <p>Find me on</p>
-    <div class="social-media">
-      <a href="#"><img width="40x40" src="img/github.svg" alt="Github"></a>
-      <a href="#"><img src="img/linkedin.svg" alt="LinkedIn"></a>
-      <a href="#"><img src="img/twitter.svg" alt="Twitter"></a>
+        <input type="submit" value="Send Message">
+      </form>
     </div>
-  </footer>
 
-  <script src="js/tota11y.min.js"></script>
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+        <a href="#"><img width="40x40" src="img/github.svg" alt="Github"></a>
+        <a href="#"><img src="img/linkedin.svg" alt="LinkedIn"></a>
+        <a href="#"><img src="img/twitter.svg" alt="Twitter"></a>
+      </div>
+    </footer>
+
+    <script src="js/tota11y.min.js"></script>
+  </div>
 
 </body>
 </html>
