@@ -94,7 +94,6 @@ th, td {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
 }
 
 .profile {
@@ -225,8 +224,4 @@ th, td {
 .page-container {
   position: relative;
   min-height: 100vh;
-}
-
-.content-wrap {
-  padding: 2.5rem; /*Footer height */
 }
