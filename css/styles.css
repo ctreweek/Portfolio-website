@@ -193,14 +193,31 @@ th, td {
   min-height: 100vh;
 }
 
-.form-row {
-  display: block;
+.contact-content > h1 {
+  text-align: center;
 }
 
-.contact-content > h1, p {
+.contact-content > p {
   text-align: center;
 }
 
 .contact-info {
   text-align: center;
+  margin-bottom:66px;
+}
+
+.contact-info > ul > li {
+  list-style: none;
+  display: inline;
+  margin-right: 30px;
+}
+
+form {
+  width: 30%;
+  margin: 0 auto;
+}
+.form-row {
+  display: flex;
+  flex-direction: column;
+
 }
