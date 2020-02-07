@@ -96,15 +96,24 @@ th, td {
   padding-top: 8%;
 }
 
-.page-header {
+/* .page-header {
   display: flex;
   justify-content: space-between;
 }
 
 .page-header__item {
   flex: 0 1 200px;
+} */
+
+.page-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
 }
 
+#logo {
+  justify-self: start;
+}
 .page-header__item:last-child {
   width: 293px;
   display: flex;
