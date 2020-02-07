@@ -131,6 +131,7 @@ th, td {
 .grid__item {
   background-color: #cbced5;
   padding: 1em;
+  border-radius: 20px;
 }
 
 .grid__item:last-child {
